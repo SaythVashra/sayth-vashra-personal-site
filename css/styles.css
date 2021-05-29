@@ -1,0 +1,267 @@
+/************************TAG SELECTORS**************************/
+
+body{
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+hr{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+p{
+    color: #000000;
+    margin-bottom: 0;
+}
+
+
+/************************TOP CONTAINER**************************/
+
+.top-container{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+.pfp{
+    margin: 0 auto 0;
+    position: relative;
+    right: 0.5%;
+    bottom: 2rem;
+    width: 45rem;
+}
+
+.top-container-h1{
+    font-size: 5.5rem;
+    color: white;
+    margin: 50px auto 0;
+    width: 90%;
+}
+
+.top-container-hr{
+    border-color: white;
+    border-radius: 5%;
+    border-style: solid none none;
+    border-width: 3px;
+    margin: 20px auto;
+    width: 20%;
+}
+
+.top-container-h2{
+    width: 80%;
+    margin: 50px auto 0;
+    padding-bottom: 100px;
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+@media screen and (max-aspect-ratio: 7/4){
+
+    .pfp{
+        right: 0;
+        width: 60rem;
+    }
+
+    .top-container-h1{
+        font-size: 12rem;
+    }
+
+    .top-container-hr{
+        border-width: 5px;
+        margin: 150px auto 0;
+        width: 40%;
+    }
+
+    .top-container-h2{
+        margin: 150px auto 0;
+        font-size: 6rem;
+        padding-bottom: 250px;
+    }
+}
+
+/************************ABOUT ME CONTAINER**************************/
+
+.about-me-container{
+    /*background-color: #d2e3f5;*/
+    margin: 0;
+}
+
+.about-me-header{
+    font-size: 5.5rem;
+    color: #364048;
+    margin: 100px auto 0;
+    width: 90%;
+}
+
+.about-me-hr{
+    border-radius: 5%;
+    border-color: #51636f;
+    border-style: solid none none;
+    border-width: 3px;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.about-me-text{
+    margin: 80px auto 100px;
+    width: 60%;
+}
+
+@media screen and (max-aspect-ratio: 7/4){
+
+    .about-me-header{
+        font-size: 10rem;
+    }
+
+    .about-me-hr{
+        margin: 70px auto 0;
+        width: 40%;
+        border-width: 6px;
+    }
+
+    .about-me-text{
+        font-size: 1.5rem;
+        width: 85%;
+    }
+}
+
+/************************ORIGINAL SONGS CONTAINER**************************/
+
+.original-songs-container{
+    background-color: #364048;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.original-songs-header{
+    display: inline-block;
+    font-size: 5.5rem;
+    color: whitesmoke;
+    margin: 0 auto 0;
+    padding: 120px 0 0;
+}
+
+.original-songs-hr{
+    border-color: white;
+    border-radius: 5%;
+    border-style: solid none none;
+    border-width: 3px;
+    margin: 20px auto 150px;
+    width: 20%;
+}
+
+.soundcloud{
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+
+.soundlcoud-iframe{
+    width: 60%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media screen and (max-aspect-ratio: 7/4){
+
+    .original-songs-header{
+        font-size: 10rem;
+        width: 90%;
+        padding: 200px 0 0;
+        margin-bottom: 200px;
+    }
+
+    .original-songs-hr{
+        display: none;
+        /*margin: 70px auto 100px;*/
+        /*width: 40%;*/
+        /*border-width: 6px;*/
+    }
+
+    .soundcloud{
+        padding-bottom: 200px;
+    }
+    .soundlcoud-iframe{
+        width: 90%;
+    }
+
+}
+
+/************************BOTTOM CONTAINER**************************/
+
+.bottom-container{
+    background-color:#2a2a2e;
+}
+
+.bottom-header{
+    display: inline-block;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin: 0 auto 0;
+    padding: 60px 0 0;
+}
+
+.bottom-container-hr{
+    border-color: white;
+    border-radius: 5%;
+    border-style: solid none none;
+    border-width: 3px;
+    margin: 10px auto 100px;
+    width: 10%;
+}
+
+.contact-icons-container{
+    display: inline-block;
+    display: flex;
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.contact-icon-div{
+    flex: 25%;
+}
+
+.contact-icon{
+    display: inline-block;
+    background-color: #2a2a2e;
+    width: 3.5rem;
+}
+
+@media screen and (max-aspect-ratio: 7/4){
+
+    .bottom-header{
+        font-size: 8rem;
+        width: 90%;
+    }
+
+    .contact-icons-container{
+        width: 95%;
+    }
+
+    .bottom-container-hr{
+        margin: 70px auto 100px;
+        width: 40%;
+        border-width: 6px;
+    }
+
+    .contact-icon{
+        width: 10rem;
+    }
+
+}
